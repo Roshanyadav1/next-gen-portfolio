@@ -11,11 +11,9 @@ export default function Home() {
         <link rel="icon" href="/vite.svg" />
       </Head>
       <main> 
-        <div className='bg-red-400 w-full h-screen p-4'>
-          <div className=' bg-green-500'>
+        <div className='w-full h-screen'>
             <GradientBackground />
              Lorem ipsum dolor sit amet consect
-          </div>
         </div>
       </main>
     </>
