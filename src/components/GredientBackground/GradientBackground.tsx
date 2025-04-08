@@ -34,7 +34,7 @@ export default function GradientBackground() {
 
   return (
     <div>
-      <div className="text-container">Bubbles</div>
+      <div className="text-container animate-character">We craft software to supercharge proven processes</div>
       <div className="gradient-bg">
         <svg xmlns="http://www.w3.org/2000/svg">
           <defs>
