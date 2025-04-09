@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef } from 'react';
 import '../../styles/style.scss'
+import Image from 'next/image';
 
 export default function GradientBackground() {
   const interBubbleRef = useRef<HTMLDivElement>(null);
@@ -34,19 +35,56 @@ export default function GradientBackground() {
 
   return (
     <div>
-      <div className="text-container animate-character">We craft software to supercharge proven processes</div>
+      <div className="text-container flex flex-col p-14 text-black">
+        <div>
+
+        <h1 className="text-5xl md:text-6xl font-extrabold animate__animated animate__fadeInUp  animate__delay-1s">
+          Hi, I’m Roshan
+        </h1>
+        <h2 className="mt-4 text-3xl md:text-4xl font-semibold text-primary animate__animated animate__fadeInUp animate__delay-2s">
+          A Frontend Developer Who Gets Things Done 🚀
+        </h2>
+        <p className="mt-6 text-lg md:text-xl font-medium max-w-xl animate__animated animate__fadeInUp animate__delay-2s">
+          I build fast UIs, write clean code, and deliver scalable React apps backed by AWS & modern DevOps.
+        </p>
+        <blockquote className="mt-10 italic text-lg text-gray-800 max-w-2xl  animate__animated animate__fadeInUp animate__delay-2s">
+          “Good code is its own best documentation —  <br/> and great UI speaks for your product.” <br />
+          <span className="not-italic font-semibold text-primary">Let’s build something meaningful.</span>
+        </blockquote>
+
+        {/* Optional Buttons */}
+        <div className="mt-10 flex gap-4 lg:absolute bottom-8 right-8 flex-wrap animate__animated animate__fadeInUp animate__delay-2s">
+          <a
+            href="#projects"
+            className="inline-block truncate px-6 py-4 text-black font-semibold text-center no-underline rounded-full uppercase leading-tight tracking-wider transition-all duration-500 ease-in-out hover:shadow-[0_5px_#000]  border border-neutral-800"
+          >
+            View Project
+          </a>
+          <a
+             href="/roshanyadav.pdf"
+             target='_blank'
+            className="inline-block truncate px-6 py-4 text-black font-semibold text-center no-underline rounded-full uppercase leading-tight tracking-wider transition-all duration-500 ease-in-out hover:shadow-[0_5px_#000]  border border-neutral-800"
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+      </div>
+
+
+
       <div className="gradient-bg">
         <svg xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <filter id="goo">
+            <filter id="matrix">
               <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
               <feColorMatrix
                 in="blur"
                 mode="matrix"
                 values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
-                result="goo"
+                result="matrix"
               />
-              <feBlend in="SourceGraphic" in2="goo" />
+              <feBlend in="SourceGraphic" in2="matrix" />
             </filter>
           </defs>
         </svg>

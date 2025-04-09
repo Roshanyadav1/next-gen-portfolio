@@ -1,6 +1,5 @@
-import Head from 'next/head';
 import GradientBackground from '@/components/GredientBackground/GradientBackground';
-// import Hero from "@/components/hero";
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -12,8 +11,7 @@ export default function Home() {
       </Head>
       <main> 
         <div className='w-full h-screen'>
-            <GradientBackground />
-             Lorem ipsum dolor sit amet consect
+          <GradientBackground />
         </div>
       </main>
     </>
