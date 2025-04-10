@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
 
-html,
-body {
-  font-family: 'Dongle', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .text-container {
   z-index: 100;
   width: 100%;
@@ -32,7 +25,7 @@ body {
 
 :root {
   --color-bg1: rgb(105, 27, 144); // slightly toned-down purple
-  --color-bg2: rgb(50, 80, 202); // bluish tone for contrast
+  --color-bg2: #00a27f; // bluish tone for contrast
   --color1: 0, 162, 127; // Primary: teal
   --color2: 156, 62, 207; // Secondary: purple
   --color3: 92, 186, 174; // Softer teal tone for blending
@@ -94,7 +87,7 @@ body {
   position: relative;
   overflow: hidden;
   // background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
-  background: white;
+  background: #efedea;
   top: 0;
   left: 0;
 
