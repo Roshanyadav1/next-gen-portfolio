@@ -16,6 +16,7 @@ export default function GradientBackground() {
     let tgY = 0;
 
     function move() {
+      if(!interBubble) return;
       curX += (tgX - curX) / 20;
       curY += (tgY - curY) / 20;
       interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
@@ -36,7 +37,7 @@ export default function GradientBackground() {
 
  useEffect(() => {
     const handleScroll = () => {
-      const heroHeight = document.querySelector(".hero")?.offsetHeight || 0;
+      const heroHeight = (document.querySelector(".hero") as HTMLElement)?.offsetHeight || 0;
       const scrollY = window.scrollY;
 
       if (scrollY > heroHeight - 50) {
