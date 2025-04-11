@@ -63,7 +63,7 @@ function TechSkills() {
                     <div className="lg:sticky top-16 h-fit">
                         <h3 className="text-5xl font-bold mb-4">Currently Exploring</h3>
                         <p className=' text-lg'>
-                            Technologies I’m actively learning to stay ahead in modern web development.
+                            Technologies I'm actively learning to stay ahead in modern web development.
                         </p>
                     </div>
                     <div className='col-span-2 grid gap-x-12 gap-y-24 lg:gap-x-[4.5rem] mt-4 sm:grid-cols-2'>

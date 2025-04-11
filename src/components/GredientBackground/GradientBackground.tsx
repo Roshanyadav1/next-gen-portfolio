@@ -57,7 +57,7 @@ export default function GradientBackground() {
         <div>
 
         <h1 className="text-5xl md:text-6xl font-extrabold animate__animated animate__fadeInUp  animate__delay-1s">
-          Hi, I’m Roshan Yaduvanshi
+          Hi, I'm Roshan Yaduvanshi
         </h1>
         <h2 className="mt-4 text-3xl md:text-4xl font-semibold text-primary animate__animated animate__fadeInUp animate__delay-2s">
           A Frontend Developer Who Gets Things Done
@@ -67,7 +67,7 @@ export default function GradientBackground() {
         </p>
         <blockquote className=" lg:block hidden mt-10 italic text-lg text-gray-800 max-w-2xl  animate__animated animate__fadeInUp animate__delay-2s">
           “Good code is its own best documentation —  <br/> and great UI speaks for your product.” <br />
-          <span className="not-italic font-semibold text-primary">Let’s build something meaningful.</span>
+          <span className="not-italic font-semibold text-primary">Let's build something meaningful.</span>
         </blockquote>
 
         {/* Optional Buttons */}
