@@ -1,5 +1,6 @@
 import AboutMe from '@/components/aboutMe';
 import GradientBackground from '@/components/GredientBackground/GradientBackground';
+import Projects from '@/components/projects';
 import TechSkills from '@/components/techSkills';
 import Head from 'next/head';
 
@@ -16,6 +17,7 @@ export default function Home() {
           <GradientBackground />
           <AboutMe />
           <TechSkills />
+          <Projects />
         </div>
       </main>
     </>

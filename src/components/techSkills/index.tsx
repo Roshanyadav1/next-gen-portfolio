@@ -12,13 +12,13 @@ function TechSkills() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 relative min-h-screen gap-10">
                     {/* Sticky Column */}
-                    <div className="sticky top-16 h-fit">
-                        <h3 className="text-[54px] font-bold mb-4">Technology Expertise</h3>
+                    <div className="lg:sticky top-16 h-fit">
+                        <h3 className="text-5xl font-bold mb-4">Technology Expertise</h3>
                         <p className=' text-lg'>
                             Core frameworks, languages, and cloud services I use daily to build high-performance, scalable web applications.
                         </p>
                     </div>
-                    <div className='col-span-2 grid grid-cols-2 gap-10'>
+                    <div className='col-span-2 grid  grid-cols-1 md:grid-cols-2 gap-10'>
                         {
                             techExpertise.map((item, index) => (
                                 <div key={index} className="flex flex-col gap-4">
@@ -36,14 +36,15 @@ function TechSkills() {
                         }
                     </div>
                 </div>
+                <div className='border-b-[1px] w-full'></div>
                 <div className="grid grid-cols-1 md:grid-cols-3 relative min-h-screen gap-10">
-                    <div className="sticky top-16 h-fit">
-                        <h3 className="text-[54px] font-bold mb-4">Workflow & Tools</h3>
+                    <div className="lg:sticky top-16 h-fit">
+                        <h3 className="text-5xl font-bold mb-4">Workflow & Tools</h3>
                         <p className=' text-lg'>
                             The engineering stack that powers how I plan, code, test, and collaborate efficiently.
                         </p>
                     </div>
-                    <div className='col-span-2 grid grid-cols-2 gap-10'>
+                    <div className='col-span-2 grid  grid-cols-1 md:grid-cols-2 gap-10'>
                         {
                             toolsAndWorkflow.map((item, index) => (
                                 <div key={index} className="flex flex-col gap-4">
@@ -57,14 +58,15 @@ function TechSkills() {
                         }
                     </div>
                 </div>
+                <div className='border-b-[1px] w-full'></div>
                 <div className="grid grid-cols-1 md:grid-cols-3 relative h-full gap-10">
-                    <div className="sticky top-16 h-fit">
-                        <h3 className="text-[54px] font-bold mb-4">Currently Exploring</h3>
+                    <div className="lg:sticky top-16 h-fit">
+                        <h3 className="text-5xl font-bold mb-4">Currently Exploring</h3>
                         <p className=' text-lg'>
                             Technologies I’m actively learning to stay ahead in modern web development.
                         </p>
                     </div>
-                    <div className='col-span-2 grid grid-cols-2 gap-10'>
+                    <div className='col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10'>
                         {
                             currentlyLearning.map((item, index) => (
                                 <div key={index} className="flex flex-col gap-4">
