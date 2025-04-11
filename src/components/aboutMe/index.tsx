@@ -6,13 +6,16 @@ function AboutMe() {
             <section className='text-2xl flex flex-col gap-6'>
                 <h2 className="text-6xl font-bold">About Me</h2>
                 <p className="leading-8 ">
-                    I'm a passionate Frontend Developer with over 3 years of experience building and shipping modern web applications. I love turning ideas into interactive, user-friendly interfaces — and I get most excited about designing thoughtful UI components and bringing new features to life.
+                    I'm a frontend developer with over 3 years of experience building and delivering high-performance, scalable web applications. I specialize in crafting clean, accessible user interfaces and implementing thoughtful features that improve usability and performance.
                 </p>
                 <p className="leading-8">
-                    I’ve worked on diverse projects in EdTech, e-commerce, and nonprofit spaces, using tools like React, Redux, Tailwind CSS, and AWS. Whether it's architecting a scalable layout or writing testable code, I take pride in crafting applications that feel good and perform well.
+                    My background spans EdTech, e-commerce, and nonprofit platforms, where I’ve worked with technologies like React, Next.js, Redux Toolkit, Tailwind CSS, TypeScript, Node.js, and AWS (Lambda, Amplify, CloudFront, S3). I focus on shipping maintainable code, collaborating across teams, and optimizing for both user experience and developer efficiency.
                 </p>
                 <p className="leading-8">
-                    I'm currently diving deeper into DevOps — learning Docker, CI/CD workflows, Node Js, and exploring both AWS and Google Cloud to enhance my full-stack deployment skills. If you're curious about what I’ve built, feel free to scroll down or check out my resume.
+                    I'm currently expanding my expertise in DevOps — learning Docker, CI/CD pipelines, and exploring infrastructure on AWS and Google Cloud. I'm also working with tools like Cypress, Jira, and Figma to support smooth development workflows from design to deployment.
+                </p>
+                <p className="leading-8">
+                    If you’re curious about the systems I’ve built or how I work, feel free to explore the projects below or download my resume.
                 </p>
                 <p className="italic font-bold">
                     Fun fact: I enjoy solving UI puzzles more than actual ones — maybe that’s why I love React.
