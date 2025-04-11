@@ -200,3 +200,42 @@ export const currentlyLearning = [
     description: 'Currently learning Docker to containerize apps and streamline development environments.'
   }
 ];
+
+export const projects = [
+  {
+    name: "CyberStash – SOAR Module (Eclipse.XDR Platform)",
+    url: "https://www.cyberstash.com/",
+    description:
+      "Developed front-end automation workflows for the Eclipse.XDR platform using React.js and Redux. Integrated security tools and implemented response playbooks to automate incident detection and reduce manual handling, improving overall response time and operational efficiency."
+  },
+  {
+    name: "Empowered Hub — Non-Profit Educational Platform",
+    url: "https://empoweredhub.org/",
+    description:
+      "Designed and built an educational platform for underserved communities, delivering learning tools and structured resources. Contributed to scaling outreach to 1000+ students with a responsive, mobile-first UI, AWS-hosted infrastructure, and real-time event handling using EventBridge."
+  },
+  {
+    name: "Singaji Central — Student Lifecycle Management System",
+    url: "https://central.ssism.org/",
+    description:
+      "Built a centralized dashboard to manage student attendance, academic progress, and examination results. Integrated dynamic data tables, responsive views, and AWS S3-based storage to support multi-institution operations and streamline administrative tasks."
+  }
+];
+
+export const certifications = [
+  {
+    name : "React JS ( Basic )",
+    url :"https://www.hackerrank.com/certificates/0ff21868e5af",
+    certifiedBy : "HackerRank"
+  },
+  {
+    name : "SQL Certificate",
+    url :"https://www.hackerrank.com/certificates/ebfeff1ec218",
+    certifiedBy : "HackerRank"
+  },
+  {
+    name : "SI Associate Certification Program",
+    url :"https://learn.mongodb.com/c/rMDBgCcAQHagsLKcb_IyCg",
+    certifiedBy : "MongoDB"
+  },
+]

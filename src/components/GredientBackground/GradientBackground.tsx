@@ -65,7 +65,7 @@ export default function GradientBackground() {
         <p className="mt-6 text-lg md:text-xl font-medium max-w-xl animate__animated animate__fadeInUp animate__delay-2s">
           I build fast UIs, write clean code, and deliver scalable React apps backed by AWS & modern DevOps.
         </p>
-        <blockquote className="mt-10 italic text-lg text-gray-800 max-w-2xl  animate__animated animate__fadeInUp animate__delay-2s">
+        <blockquote className=" lg:block hidden mt-10 italic text-lg text-gray-800 max-w-2xl  animate__animated animate__fadeInUp animate__delay-2s">
           “Good code is its own best documentation —  <br/> and great UI speaks for your product.” <br />
           <span className="not-italic font-semibold text-primary">Let’s build something meaningful.</span>
         </blockquote>

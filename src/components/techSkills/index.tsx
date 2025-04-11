@@ -8,7 +8,7 @@ function TechSkills() {
         <div className='lg:p-14 p-4 '>
             <section className='text-2xl flex flex-col gap-6'>
                 <h2 className="text-6xl font-bold">The Stack Behind My Code</h2>
-                <div className='flex flex-col gap-24 py-24'>
+                <div className='flex flex-col gap-24 py-10'>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 relative min-h-screen gap-10">
                     {/* Sticky Column */}
@@ -18,7 +18,7 @@ function TechSkills() {
                             Core frameworks, languages, and cloud services I use daily to build high-performance, scalable web applications.
                         </p>
                     </div>
-                    <div className='col-span-2 grid  grid-cols-1 md:grid-cols-2 gap-10'>
+                    <div className='col-span-2 grid gap-x-12 gap-y-24 lg:gap-x-[4.5rem] mt-4 sm:grid-cols-2'>
                         {
                             techExpertise.map((item, index) => (
                                 <div key={index} className="flex flex-col gap-4">
@@ -44,7 +44,7 @@ function TechSkills() {
                             The engineering stack that powers how I plan, code, test, and collaborate efficiently.
                         </p>
                     </div>
-                    <div className='col-span-2 grid  grid-cols-1 md:grid-cols-2 gap-10'>
+                    <div className='col-span-2 grid gap-x-12 gap-y-24 lg:gap-x-[4.5rem] mt-4 sm:grid-cols-2'>
                         {
                             toolsAndWorkflow.map((item, index) => (
                                 <div key={index} className="flex flex-col gap-4">
@@ -66,7 +66,7 @@ function TechSkills() {
                             Technologies I’m actively learning to stay ahead in modern web development.
                         </p>
                     </div>
-                    <div className='col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10'>
+                    <div className='col-span-2 grid gap-x-12 gap-y-24 lg:gap-x-[4.5rem] mt-4 sm:grid-cols-2'>
                         {
                             currentlyLearning.map((item, index) => (
                                 <div key={index} className="flex flex-col gap-4">
