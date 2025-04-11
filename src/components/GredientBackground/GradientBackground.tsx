@@ -57,7 +57,7 @@ export default function GradientBackground() {
         <div>
 
         <h1 className="text-5xl md:text-6xl font-extrabold animate__animated animate__fadeInUp  animate__delay-1s">
-          Hi, I’m Roshan
+          Hi, I’m Roshan Yaduvanshi
         </h1>
         <h2 className="mt-4 text-3xl md:text-4xl font-semibold text-primary animate__animated animate__fadeInUp animate__delay-2s">
           A Frontend Developer Who Gets Things Done
@@ -74,7 +74,7 @@ export default function GradientBackground() {
         <div className="mt-10 flex gap-4 lg:absolute bottom-8 right-8 flex-wrap animate__animated animate__fadeInUp animate__delay-2s">
           <a
             href="#projects"
-            className="inline-block truncate lg:px-6 lg:py-4 py-2 px-3 text-black no-underline rounded-full uppercase leading-tight tracking-wider transition-all duration-500 ease-in-out hover:shadow-[0_5px_#000]  border border-neutral-800"
+            className="inline-block scroll-smooth truncate lg:px-6 lg:py-4 py-2 px-3 text-black no-underline rounded-full uppercase leading-tight tracking-wider transition-all duration-500 ease-in-out hover:shadow-[0_5px_#000]  border border-neutral-800"
           >
             View Project
           </a>

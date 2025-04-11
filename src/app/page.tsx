@@ -1,6 +1,7 @@
 import AboutMe from '@/components/aboutMe';
 import GradientBackground from '@/components/GredientBackground/GradientBackground';
 import Projects from '@/components/projects';
+import ScrollButton from '@/components/scrollButton';
 import TechSkills from '@/components/techSkills';
 import Head from 'next/head';
 
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <main> 
         <div className='w-full h-screen'>
+          <ScrollButton />
           <GradientBackground />
           <AboutMe />
           <TechSkills />
