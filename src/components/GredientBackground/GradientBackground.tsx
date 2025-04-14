@@ -80,7 +80,7 @@ export default function GradientBackground() {
             View Project
           </a>
           <a
-             href="/roshanyadav.pdf"
+             href="/roshan-resume.pdf"
              target='_blank'
             className="inline-block truncate lg:px-6 lg:py-4 py-2 px-3 text-black no-underline rounded-full uppercase leading-tight tracking-wider transition-all duration-500 ease-in-out hover:shadow-[0_5px_#000]  border border-neutral-800"
           >
